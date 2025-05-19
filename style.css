@@ -438,8 +438,8 @@ html {
 
 .contact-map {
     margin-left: 40px;
-    margin: 10px 30px;
-    width: 500px;
+    margin: 10px 20px;
+    width: 600px;
 }
 
 .contact-form {
@@ -641,4 +641,13 @@ footer .author {
     opacity: 0;
     visibility: hidden;
     transform: translateY(0px);
+}
+.date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#lastmodified{
+  color: rgb(119, 0, 255);  
 }
